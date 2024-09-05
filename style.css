@@ -1,0 +1,226 @@
+/*Body Styling*/
+body {
+	font-family: 'Spartan', sans-serif;
+	color: #1E1E35;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+  background-color: #FFF;
+}
+
+#lock{
+  max-width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Header Styling*/
+header {
+  width: 80%;
+	margin: auto;
+}
+
+header span {
+  min-width: 230px;
+}
+
+header ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0; /* Remove margins */
+  width: 130px;
+  background-color: #575757; /* Add a grey background color */
+}
+
+header ul li {
+ 	font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #363636; /* Add a thin border to each list item */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #575757; /* Add a grey background color */
+  padding: 12px; /* Add some padding */
+  text-align: right;
+}
+
+header li a {
+  display: block;
+  text-decoration: none;
+  color: darkorange;
+  padding: 8px 16px;
+  transition: all 0.2s ease-in;
+}
+
+header ul li:hover {
+  background-color: #363636;
+}
+
+header li a:hover {
+  color: rgb(245, 187, 80);
+}
+
+
+/*Text Styling*/
+h1 {
+	font-size: 250%;
+  font-weight: 300;
+}
+
+h2 {
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+h1,
+h2 {
+	color: #4059FB;
+}
+
+.body {
+  margin: auto;
+  max-width: 80%;
+}
+
+.heroPic{
+  max-width: 100%;
+  height: 460px;
+  object-fit: cover;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+#refId{
+  color: #001C40;
+  font-size: 200%;
+  text-align: center;
+  font-weight: 600;
+}
+
+#preOrder {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.28);
+  width: 280px;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 1.5px;
+  border-radius: 2.5px;
+}
+
+.cardContact {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 1.5px;
+  border-radius: 5px;
+}
+
+.card img {
+  border-radius: 2.5px;
+}
+
+.clear {
+  clear:both;
+}
+
+/*List Styling*/
+ol li {
+  padding-bottom: 8px;
+}
+
+ul li {
+  padding-bottom: 8px;
+}
+
+/*Image Styling*/
+img {
+	width: 100%;
+}
+
+/*Footer Styling*/
+footer {
+  position: bottom;
+  width: 100%;
+	margin: auto;
+  left: 0;
+  bottom: 0;
+  background: #001C40;
+  letter-spacing: 1px;
+  color: #fff;
+}
+footer span {
+  display: inline-block;
+  min-width: 230px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  padding: 0px 17px;
+}
+footer span a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+footer span a:hover {
+  color: #64E5E0;
+}
+
+/*Sizing Styling*/
+@media screen and (max-width: 875px) {
+
+  .text {
+  margin: auto;
+  max-width: 95%;
+  }
+
+  .heroPic{
+    height: 290px;
+  }
+
+  #qrcode{
+    max-width: 100%;
+  }
+
+  header ul {
+    padding-top:2px;
+  }
+
+	h1 {
+		font-size: 195%;	
+	}
+}
+
+@media screen and (max-width: 600px) {
+  .heroPic{
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    margin: 8px 2px;
+  }
+
+  .heroPic{
+    height: 150px;
+  }
+
+  header span {
+  font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
