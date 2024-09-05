@@ -1,1 +1,78 @@
-Hello world!
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contact options</title>
+    <!-- add the font awesome link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon"href="https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/nhs111square_1392150070054876.png" type="image/x-icon!">
+  </head>
+	<body>
+		<!-- MAIN BODY CONTAINER -->
+    <div id="container" style="display: show;">
+      <!-- HEADER -->
+      <img class="heroPic" src="https://indemailmedia.s3.amazonaws.com/5eb65906-aa26-404d-8fd7-2ddbe5f04d7e/nhs111_team_1346191812844988.png" alt="NHS 111 background image" style="object-position: 100% 0%;">
+    	<header>
+				<span>
+          <h1 >Your reference number:</h1>
+				</span>
+			</header>
+
+      <div class="body">
+      
+      <p id="refId"><span class="referenceID"></span></p>
+
+			<h2>Contact options</h2>
+
+      <div class="text">
+        <p>Choose a channel to contact us on below:</p>
+      </div>
+      
+      <div id="preOrder">
+          <!--WEB CHAT OPTION-->
+          <div class="cardContact">
+            <img id="webChatButton" src="https://awsprodemailassets.s3.amazonaws.com/0ae1dbc4-e5aa-46c3-8aed-55995aabf5b7/webchat_icon_1269693910352165.png" style="width:120px;padding-top:15px;cursor:pointer;">
+            <img id="webChatButtonClose" src="https://awsprodemailassets.s3.amazonaws.com/0ae1dbc4-e5aa-46c3-8aed-55995aabf5b7/webchat_icon_1269693910352165.png" style="width:120px;padding-top:15px;display:none;cursor:pointer;">
+            <p style="line-height:1.1"><span class="destination"><b>Web chat</b></span><br>&nbsp;</p>
+          </div>
+
+          <!--WHATSAPP OPTION-->
+          <div class="cardContact">
+            <a href="https://wa.me/447942207637/?text=NHS111" target="_blank"><img src="https://awsprodemailassets.s3.amazonaws.com/0ae1dbc4-e5aa-46c3-8aed-55995aabf5b7/whatsapp_icon_1269566872148472.png" style="width:120px;padding-top:15px;"></a>
+            <p style="line-height:1.1"><b>WhatsApp us</b><br>&nbsp;</p>
+          </div>
+
+          <!--TEXT OPTION-->
+          <div class="cardContact phoneContent">
+            <a href="sms://+447418397311?&body=NHS111"><img src="https://awsprodemailassets.s3.amazonaws.com/0ae1dbc4-e5aa-46c3-8aed-55995aabf5b7/sms_icon_1269562494052047.png" style="width:120px;padding-top:15px;"></a>
+            <p style="line-height:1.1"><span class="destination"><b>Text us</b></span><br>&nbsp;</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <br><br>
+      </div>
+		</div>
+
+		<footer>
+    <span>
+      <p><b>imi</b>solutions : NHS 111 demo &nbsp
+      <a href="https://demolaunchpad.imisolutions.repl.co/" target="_blank"><i class="fas fa-rocket"></i></a>
+      &nbsp
+      <a href="https://imimobile.com/" target="_blank"><i class="fas fa-globe"></i></a>
+      &nbsp
+      <a href="https://www.linkedin.com/company/imimobile/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </p>
+    </span>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+  <div id="divicw" data-bind="342160ef-5743-11ec-9d17-0aaac5b19840" data-org=""></div><script>var i={t:function(t){var e="https://attachments-ldn.imiengage.io/widgeteu/js/imichatinit.js";try{var o=new XMLHttpRequest;o.onreadystatechange=function(){if(this.readyState==4){var t=document.getElementById("divicw");if(this.status==0){i.o(t);return}var e=document.createElement("script");e.innerHTML=this.responseText;t.parentNode.insertBefore(e,t.nextSibling)}};o.open("GET",e,true);o.send()}catch(s){console.error(s)}},o:function(t){t.insertAdjacentHTML("afterend",'<iframe id="tls_al_frm" frameborder="0" style="overflow: hidden;height: 208px;width: 394px;position: fixed;display: block;right: 48px;bottom: 12px;z-index: 99999; display:none;"></iframe>');var e=document.getElementById("tls_al_frm");var o=e.contentWindow||(e.contentDocument.document||e.contentDocument);o.document.open();o.document.write('<!doctype html><html><head><meta charset="utf-8"><title>Untitled Document</title><style>body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color: #99a0b0;font-size: 14px;}.popover__content{background-color: #fbfbfe; padding: 1.5rem; border-radius: 5px; width: 300px; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);position: relative;}.popover__message{font-weight: 600;color:#56627c;font-size: 16px;}.pull-left{float:left;}.clearfix{clear: both;}.hdr-txt{width: 218px; margin-top: 3px;}.para-txt a{text-decoration: none;color: #005cde;}.close-btn{position: absolute;right:15px;top:15px;}.close-btn a{text-decoration: none;font-weight: 400; color: #56627c; font-size: 16px;}</style></head><body><div class="popover__content"><div class="close-btn"><a href="#" onclick="closeTLSAlert();">X</a></div><div class="popover__message"><div class="pull-left hdr-txt">This browser version is not supported on LiveChat.</div></div><div class="clearfix"></div><p class="para-txt">Please update your browser to the latest version and re-open the website to access the widget. </p></div><script>function closeTLSAlert(){window.parent.postMessage({key: "close_tls_alert",value: "close_tls_alert",action: "close_tls_alert"}, "*");}<\/script></body></html>');o.document.close();e.style.display="block";window.addEventListener("message",function(t){if(t.data.action=="close_tls_alert"){i.s()}})},s:function(){var t=document.getElementById("tls_al_frm");t.remove()}};i.t(function(t){});</script>
+	</body>
+</html>
